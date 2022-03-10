@@ -79,6 +79,43 @@
         </main>
         <footer></footer>
 
+        <!-- question Section -->
+        <section class="container-fluid my-5">
+            <h2 class="text-center">Question Answer </h2>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        How does javascript work?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        জাভাইস্ক্রিপ্ট একটি  client-side scripting language । এটি ব্রাইজারের ভিতরে   কাজ করে। ব্রাইজারের engine Javascript কোড কে কম্পাইল করে এবং লাইন বাই লাইন পরে । আরেকটি বিশেষ জিনিস মনে রাখতে হবে আমি যেই ব্রাউজার টায় কাজ করাবো সেটিতে 
+                        Javascript সাপর্ট করা লাগবে না হলে Javascript কাজ করবে না । যদিও এখকার সব ব্রাউজার 
+                        Javascript সাপর্ট করে । 
+                        যেমন ঃ Firefox এর Spidermonkey আর goolge chrome এর v8 engine ইত্যাদি 
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        localstorage and sessionstorage difference?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        localstorage: localstorage এর ডেটা টিকে থাকে যতক্ষণ না ব্যবহারকারী ম্যানুয়ালি ব্রাউজার ক্যাশে সাফ করে। এটি ব্রাউজার off  করার পরেও থেকে যায়।  <br>
+                        sessionstorage: sessionstorage এর ডেটা window পরিবর্তন হয়ার সাথে সাথে চলে যায় । এটি স্থাহি থাকে না ।
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+        </section>
+        <!-- js boothstarp -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <!-- add javascript  file  -->
         <script src="./js/app.js"></script>
     </body>
